@@ -14,7 +14,7 @@ Express : run this command in your TERMINAL 'npm i --save-dev nodemon
 
 To run the server enter this command : npm runDevstart
 
-To perform the jest testing run thin command : npm test
+To perform the jest testing run this command : npm test
 
 Enjoy !
 
