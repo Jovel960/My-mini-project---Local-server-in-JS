@@ -2,7 +2,7 @@ Hello !
 
 Welcome to my mini project based on JS
 
-I created to local servers where each server have another content, after that i created some unit testing with jest 
+I created two local servers where each server have another content, after that i created some unit testing with jest 
 to verify that the server is working properly.
 
 Please before you running this project make sure you have installed on your computer :
