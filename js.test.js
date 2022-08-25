@@ -12,13 +12,6 @@ test('request should return something', async () =>{
     .get('http://localhost:80/Second_host').then(res =>{expect(true).toBe(true)}).catch((error)=>{expect(false).toBe(false)});
     
 })
-test('testing the 2nd server content', async ()=>{
-    axios
-    .get('http://localhost:80/Second_host').then(res=>{ 
-        let result = res.data;
-        expect(result).toBeDefined();
-    }).catch(error=>{expect(false).toBe(true);})
-})
 test('testing my first local host', ()=>{
     funcs.makeGetRequest1().then(res =>{
         let result = res.data;
