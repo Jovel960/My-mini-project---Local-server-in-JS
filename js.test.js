@@ -19,7 +19,7 @@ test('testing the 2nd server content', async ()=>{
         expect(result).toBeDefined();
     }).catch(error=>{expect(false).toBe(true);})
 })
-test('testing my first local host', ()=>{
+test('testing my first server ', ()=>{
     funcs.makeGetRequest1().then(res =>{
         let result = res.data;
         expect(result).toMatch('Israel Daylight Time');
